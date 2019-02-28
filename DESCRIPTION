@@ -1,0 +1,15 @@
+Package: rBES
+Title: A package of functions built by BES staff
+Version: 0.0.0.9000
+Authors@R: person("GM", "Culp", email = "gculp@health.nyc.gov", role = c("aut", "cre"))
+Description: This package contains functions built by Bureau of Epidemiology Services staff.
+Depends: R (>= 3.4.2),
+	rGBAT,
+	rUSPS,
+	rNYCclean
+Imports:
+    data.table
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
